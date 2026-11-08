@@ -16,8 +16,8 @@ st.set_page_config(page_title="Clasificador de Gatos y Perros", page_icon="🐾"
 # Barra lateral con información del estudiante
 with st.sidebar:
     st.header("🎓 Datos del Estudiante")
-    st.markdown(f"**Nombre:** {Antonio Vasquez}")
-    st.markdown(f"**Cuenta:** {20221900346}")
+    st.markdown(f"**Nombre:** {NOMBRE_ESTUDIANTE}")
+    st.markdown(f"**Cuenta:** {NUMERO_CUENTA}")
     st.write("---")
     st.info("Esta aplicación utiliza el modelo MobileNetV2 preentrenado y ajustado para clasificar imágenes de Gatos y Perros.")
 
